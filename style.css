@@ -1,0 +1,74 @@
+html {
+  background: url(img/blackhole.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+body {
+  width: 600px;
+  margin: 10px auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px 50px;
+  border: 2px solid white;
+}
+
+/* layout */
+table {
+  width: 100%;
+}
+td {
+  border: 2px solid orange;
+  text-align: center;
+  padding-bottom: 20px;
+}
+td:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+h1,
+h2,
+#container-5 {
+  text-align: center;
+}
+#container-5 {
+  border: 2px solid orange;
+  padding-bottom: 20px;
+}
+#container-5:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* details */
+b {
+  color: orange;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: orange;
+  font-weight: bold;
+}
+
+input {
+  color: black;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin-top: 20px;
+  width: 15%;
+  height: 30px;
+  font-size: 20px;
+  color: orange;
+  background-color: black;
+  border: 2px solid orange;
+}
+
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 0.5;
+}
